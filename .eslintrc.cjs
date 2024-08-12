@@ -19,10 +19,10 @@ module.exports = {
     ],
 
     
-    'semi': ['error', 'always', {'omitLastInOneLineBlock':false}],
+    // 'semi': ['error', 'always', {'omitLastInOneLineBlock':false}], // точка с запятой в конце
     'comma-dangle': ['error', 'never'],
     quotes: ['error', 'single'],
     'react/prop-types': [0],
-    'indent': ['error', 'tab']
+    // 'indent': ['error', 'tab']
   },
 }

@@ -1,7 +1,6 @@
-import './Button.css'
-export default function Button() {
+import './Button.css';
+export default function Button({text, onClick}) {
 	return(
-		<button className="button accent">git third change branch</button>
-	)
+		<button onClick={onClick} className="button accent">{text}</button>
+	);
 }
-
