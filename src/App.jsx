@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import CardButton from './components/CardButton/CardButton';
 import Header from './components/Header/Header';
@@ -46,6 +45,9 @@ function App() {
 							text={data[1].text}
 							date={data[1].date}
 						/>
+					</CardButton>
+						
+					<CardButton>
 					</CardButton>
 				</JournalList>
 			</LeftPanel>
