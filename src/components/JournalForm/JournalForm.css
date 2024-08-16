@@ -3,3 +3,46 @@
   flex-direction: column;
   gap: 30px;
 }
+
+
+.input-title{
+  border:none;
+  background: none;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: 'Source Sans 3' , serif;
+  width: 100%;
+  border-bottom: 1px solid #828181f9;
+}
+
+.form-label{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 150px;
+}
+
+.form-row{
+  display: flex;
+  align-items:center;
+}
+
+.input{
+  border:none;
+  background: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: 'Source Sans 3' , serif;
+  border-bottom: 1px solid #828181f9;
+  width: 100%;
+}
+
+
+.invalid{
+  border: 1px solid red;
+  background-color: rgba(237, 0, 0, 0.082);
+}
